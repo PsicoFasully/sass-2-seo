@@ -1,0 +1,60 @@
+.header-footer, header, footer {
+  width: 100%;
+  font-family: verdana;
+  font-size: 20px; }
+
+article {
+  font-size: 16px; }
+
+.header-footer, header, footer {
+  width: 100%;
+  font-family: verdana;
+  font-size: 20px; }
+
+header nav {
+  display: flex;
+  justify-content: space-between; }
+  header nav a {
+    text-decoration: none;
+    font-family: verdana;
+    color: white; }
+
+.header-footer, header, footer {
+  width: 100%;
+  font-family: verdana;
+  font-size: 20px; }
+
+section {
+  width: 100%; }
+  section article {
+    width: 100%; }
+    section article p {
+      font-family: verdana;
+      line-height: 1.5;
+      font-style: italic;
+      font-weight: hold;
+      text-align: center; }
+
+.header-footer, header, footer {
+  width: 100%;
+  font-family: verdana;
+  font-size: 20px; }
+
+footer {
+  display: flex;
+  justify-content: space-between; }
+  footer a {
+    text-decoration: none;
+    font-family: verdana;
+    color: white; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+  body{
+    background-image: url(../img/casa-kame-de-dragon-ball_1280x720_xtrafondos.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }

@@ -1,0 +1,13 @@
+@import "../variables/variables";
+
+$decoraciones:(
+    color: $blue,
+    centro: $alinear-al-centro,
+    fSize: $size,
+    ancho: 16px,
+);
+
+article{
+    
+    font-size: map-get($decoraciones, ancho );
+}
